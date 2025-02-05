@@ -17,8 +17,8 @@ import java.util.UUID;
 @NoArgsConstructor
 public class CustomerDTO {
     private UUID id;
-    private String name;
+    private String costumerName;
     private Integer version;
     private LocalDateTime createdDate;
-    private LocalDateTime updateDate;
+    private LocalDateTime lastModifiedDate;
 }
